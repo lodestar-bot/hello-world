@@ -1,2 +1,8 @@
 #!/usr/bin/env node
-console.log("Hello, world! 🤖 lodestar-bot is operational.");
+
+function greet(name = "world") {
+  return `Hello, ${name}! 🤖 lodestar-bot is operational.`;
+}
+
+console.log(greet());
+console.log(greet("Harbour Pilot"));
